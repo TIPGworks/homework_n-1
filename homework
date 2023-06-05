@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Link Examples</title>
+</head>
+<body>
+  <h1>Link Examples</h1>
+
+  <!-- Link to another site -->
+  <a href="https://www.example.com" target="_blank">Link to Another Site</a>
+
+  <!-- Link to an anchor on the same page -->
+  <a href="#section">Link to Section</a>
+  <br><br>
+  <h2 id="section">Section Heading</h2>
+
+  <!-- Link to a page on the same site -->
+  <a href="page.html">Link to Page on Same Site</a>
+
+  <!-- Link that dials a number -->
+  <a href="tel:+1234567890">Dial a Number</a>
+
+  <!-- Link that runs JavaScript -->
+  <a href="javascript:void(0);" onclick="runJavaScript();">Run JavaScript</a>
+
+  <!-- Link that runs email client -->
+  <a href="mailto:example@example.com">Send Email</a>
+
+  <script>
+    function runJavaScript() {
+      alert('Hello, JavaScript!');
+    }
+  </script>
+</body>
+</html>
